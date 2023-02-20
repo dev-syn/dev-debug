@@ -1,12 +1,38 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+    
+    <!-- General -->
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <IsPackable>false</IsPackable>
+        <Deterministic>false</Deterministic>
+        <ProjectGuid>{d80d103a-5182-41b6-8671-f36887bb2dc7}</ProjectGuid>
+        <Company>DevSyn</Company>
+        <Product>DevDebug</Product>
+        <AssemblyVersion>0.1.*</AssemblyVersion>
+        <!-- Suppress assembly versioning warning -->
+        <NoWarn>7035</NoWarn>
+    </PropertyGroup>
+    
+    <!-- Debug -->
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <Optimize>false</Optimize>
+        <DebugType>full</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+
+    <!-- Release -->
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <Optimize>true</Optimize>
+        <DebugType>pdbonly</DebugType>
     </PropertyGroup>
 
     <ItemGroup>
       <Reference Include="UnityEngine">
         <HintPath>lib\UnityEngine-2021-3-17f1.dll</HintPath>
+          <CopyLocal>false</CopyLocal>
       </Reference>
     </ItemGroup>
 
