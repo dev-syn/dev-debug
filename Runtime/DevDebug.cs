@@ -1,5 +1,5 @@
 ﻿/*
-    © Copyright 2023-02-15 Dev Syn, Casey Ollis
+    © Copyright 2023 Dev Syn, Casey Ollis
     
     This file is part of DevDebug
     
