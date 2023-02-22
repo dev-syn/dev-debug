@@ -20,7 +20,7 @@ and be directed to the origin of your outputs.
 
 
 ### Usage
-> The Unity package installation will work outside the box as package.
+> The Unity package installation will work outside the box as a package.
 > 
 > The Unity Managed  Plugin (DLL) requires some extra steps which will be described below:
 > 
