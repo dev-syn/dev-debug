@@ -10,8 +10,8 @@
         <Company>DevSyn</Company>
         <Product>DevDebug</Product>
         <AssemblyVersion>0.1.1</AssemblyVersion>
-        <!-- Suppress assembly versioning warning -->
-        <NoWarn>7035</NoWarn>
+        <FileVersion>0.1.1</FileVersion>
+        <NeutralLanguage>en</NeutralLanguage>
     </PropertyGroup>
     
     <!-- Debug -->
