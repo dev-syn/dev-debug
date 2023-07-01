@@ -5,3 +5,18 @@ riderModule.iml
 /_ReSharper.Caches/
 DevDebug.sln.DotSettings.user
 discord.xml
+/DevDebug.csproj.SdkResolver.-2075380736.proj
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.DevDebug.iml
+/contentModel.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
