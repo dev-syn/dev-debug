@@ -1,7 +1,9 @@
 # DevDebug
 A wrapper class for Unity Debug, this will contain most of the methods
 from Debug for logging purposes. It uses the Conditional attribute
-to only log when 'DEV_BUILD' is defined.
+to only log when 'DEV_BUILD' constraint is defined.
+
+NOTE: Asserts must have the 'UNITY_ASSERTS' constraint defined to execute.
 
 ## How-To:
 
