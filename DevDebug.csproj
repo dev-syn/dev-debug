@@ -28,12 +28,11 @@
         <Optimize>true</Optimize>
         <DebugType>pdbonly</DebugType>
     </PropertyGroup>
-
+    
     <ItemGroup>
       <Reference Include="UnityEngine">
-        <HintPath>lib\UnityEngine-2021-3-17f1.dll</HintPath>
-          <CopyLocal>false</CopyLocal>
+        <HintPath>lib\UnityEngine.dll</HintPath>
+        <CopyLocal>false</CopyLocal>
       </Reference>
     </ItemGroup>
-
 </Project>
