@@ -28,11 +28,10 @@
         <Optimize>true</Optimize>
         <DebugType>pdbonly</DebugType>
     </PropertyGroup>
-    
     <ItemGroup>
       <Reference Include="UnityEngine">
         <HintPath>lib\UnityEngine.dll</HintPath>
-        <CopyLocal>false</CopyLocal>
+        <Private>False</Private>
       </Reference>
     </ItemGroup>
 </Project>
